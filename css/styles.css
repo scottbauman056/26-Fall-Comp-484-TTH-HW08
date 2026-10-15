@@ -1,0 +1,168 @@
+/* Color Palette
+#0F1115 - BACKGROUND1
+#131B26 - background2 
+#1C1A1E - background3
+#151E1A - background4
+#201D19 - background5
+#EDEDF2 - primary text
+#C9A227 - hover accents
+#00003B - Nav bar
+#2C1A2E - Work Experience
+*/
+
+/* 
+Fira Font:
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+Uncial Antiqua font:
+.uncial-antiqua-regular {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+
+/* Global styles 
+------------------------------------*/
+
+/* border box fix */
+html {
+    box-sizing: border-box;
+    scroll-padding-top: 60px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #0F1115;
+    color: #EDEDF2;
+    font-family: "Fira Sans", sans-serif;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: "Uncial Antiqua", system-ui;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+/* Navigation ------------------------ */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #00003B;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 10;
+}
+
+nav a {
+    color: #EDEDF2;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #C9A227;
+}
+
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #131B26;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+footer {
+    background: #201D19;
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.profile-img {
+    
+    /*width: 300px;*/
+    border-radius: 50%;
+}
+
+footer a {
+    color: #EDEDF2;
+}
+
+footer a:hover {
+    color: #d35400; 
+    text-decoration: underline;
+}
+
+/* Work Experience
+------------------------------------*/
+
+#work-experience {
+    background: #2C1A2E;
+}
+
+/* Education
+------------------------------------*/
+
+#education {
+    background: linear-gradient(rgba(21, 30, 26, 0.5), rgba(21, 30, 26, 0.9)), url(../images/csunbackground.jpg) center / cover;
+}
