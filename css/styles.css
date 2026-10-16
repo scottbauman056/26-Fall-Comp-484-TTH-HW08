@@ -164,5 +164,5 @@ footer a:hover {
 ------------------------------------*/
 
 #education {
-    background: linear-gradient(rgba(21, 30, 26, 0.5), rgba(21, 30, 26, 0.9)), url(../images/csunbackground.jpg) center / cover;
+    background: linear-gradient(rgba(21, 30, 26, 0.5), rgba(21, 30, 26, 0.9)), url(../images/csunbackground.jpg) center / cover fixed;
 }
